@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+body {
+	font-family: Verdana, Geneva, sans-serif; 
+	background-color: #fff;
+}
+
+#container {
+	margin: 0 auto; 
+	background-color: #fff;
+	padding-bottom: 10px;
+
+	#header {
+		height: 320px;
+		background-color: #dfdfdf;
+		border-bottom: 2px #cccccc solid;
+		text-align: center;
+
+		#partners-bar {
+			padding-top: 3px;
+			margin-bottom: 15px;
+			background-color: #FF553D;
+			height: 42;
+			border-top: 2px solid #BE785F;
+			border-bottom: 1px solid #ffffff;
+		}
+
+		h1 {
+			color: #5a5a5a;
+			font-weight: bold;
+			font-size:14px;
+
+			span {
+				color: #f46034;
+			}
+		}
+
+		h2 {
+			color: #f46034; 
+			font-weight: bold;
+			font-size: 12px;
+			margin: -5px 0 0 0;
+		}
+	}
+}
+
+.btn-lista {
+	padding: 15px 0 0 0; 
+	text-align: center; 
+	width: 100%;
+
+	ul {
+		list-style: none;
+		padding: 10px 0 0 0; 
+		margin: 0;
+
+		li {
+			list-style: none; 
+			padding: 0; 
+			margin: 0; 
+			text-align: center
+		}
+	}
+}
+
+.lista-btn {
+	font-size: 12px; 
+	padding: 15px 0 0 0; 
+	text-align: center;
+
+	ol {
+		margin: 0;
+		padding-left: 30px;
+
+		li {
+			padding: 5px 0 5px 0; 
+			margin: 0; 
+			color: #5a5a5a;
+		}
+	}
+}
+
+.btn01,
+.btn02,
+.btn03 {
+	color: #fff; 
+	width: 100%; 
+	height: 71px; 
+	display: block;
+}
+
+a {
+	background-position: center; 
+	background-repeat: no-repeat;
+
+	&.btn01 {
+		background-image: url(../images/btn01-cinza.jpg); 
+
+		&:hover{
+			background-image: url(../images/btn01-laranja.jpg);
+		}
+	}
+
+	&.btn02 { 
+		background-image: url(../images/btn02-cinza.jpg); 
+
+		&:hover {
+			background-image: url(../images/btn02-laranja.jpg); 
+		}
+	}
+
+	&.btn03 {
+		background-image: url(../images/btn03-cinza.jpg); 
+
+		&:hover {
+			background-image: url(../images/btn03-laranja.jpg);
+		}
+	}
+}
