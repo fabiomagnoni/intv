@@ -1,98 +1,17 @@
 @charset "utf-8";
-body {
-  font-family: Verdana, Geneva, sans-serif;
-  background-color: #fff;
-}
-#container {
-  margin: 0 auto;
-  background-color: #fff;
-  padding-bottom: 10px;
-}
-#container #header {
-  height: 320px;
-  background-color: #dfdfdf;
-  border-bottom: 2px #cccccc solid;
-  text-align: center;
-}
-#container #header #partners-bar {
-  padding-top: 3px;
-  margin-bottom: 15px;
+#partners-bar {
   background-color: #FF553D;
-  height: 42;
-  border-top: 2px solid #BE785F;
-  border-bottom: 1px solid #ffffff;
+  padding-top: 2px;
+  padding-bottom: 5px;
 }
-#container #header h1 {
+#shopping-wifi-courtesy {
+  background-color: #DFDFDF;
+}
+#shopping-wifi-courtesy p {
   color: #5a5a5a;
   font-weight: bold;
-  font-size: 14px;
+  text-transform: uppercase;
 }
-#container #header h1 span {
+#shopping-wifi-courtesy p span {
   color: #f46034;
-}
-#container #header h2 {
-  color: #f46034;
-  font-weight: bold;
-  font-size: 12px;
-  margin: -5px 0 0 0;
-}
-.btn-lista {
-  padding: 15px 0 0 0;
-  text-align: center;
-  width: 100%;
-}
-.btn-lista ul {
-  list-style: none;
-  padding: 10px 0 0 0;
-  margin: 0;
-}
-.btn-lista ul li {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  text-align: center;
-}
-.lista-btn {
-  font-size: 12px;
-  padding: 15px 0 0 0;
-  text-align: center;
-}
-.lista-btn ol {
-  margin: 0;
-  padding-left: 30px;
-}
-.lista-btn ol li {
-  padding: 5px 0 5px 0;
-  margin: 0;
-  color: #5a5a5a;
-}
-.btn01,
-.btn02,
-.btn03 {
-  color: #fff;
-  width: 100%;
-  height: 71px;
-  display: block;
-}
-a {
-  background-position: center;
-  background-repeat: no-repeat;
-}
-a.btn01 {
-  background-image: url(../images/btn01-cinza.jpg);
-}
-a.btn01:hover {
-  background-image: url(../images/btn01-laranja.jpg);
-}
-a.btn02 {
-  background-image: url(../images/btn02-cinza.jpg);
-}
-a.btn02:hover {
-  background-image: url(../images/btn02-laranja.jpg);
-}
-a.btn03 {
-  background-image: url(../images/btn03-cinza.jpg);
-}
-a.btn03:hover {
-  background-image: url(../images/btn03-laranja.jpg);
 }
