@@ -12,12 +12,19 @@ module.exports = function (grunt) {
 			}
 		},
 
+		copy: {
+			main: {
+				src: 'bower_components/bootstrap/dist/css/bootstrap.min.css',
+				dest: 'app/styles/third-party/bootstrap/bootstrap.min.css'
+			}
+		},
+
 		watch: {
 			files: [
 				'app/**/*.less'
 			],
 			tasks: [
-				'less'
+				'less', 'copy'
 			]
 		}
 	});

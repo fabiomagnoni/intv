@@ -1,98 +1,50 @@
 @charset "utf-8";
-body {
-  font-family: Verdana, Geneva, sans-serif;
-  background-color: #fff;
-}
-#container {
-  margin: 0 auto;
-  background-color: #fff;
-  padding-bottom: 10px;
-}
-#container #header {
-  height: 320px;
-  background-color: #dfdfdf;
-  border-bottom: 2px #cccccc solid;
-  text-align: center;
-}
-#container #header #partners-bar {
-  padding-top: 3px;
-  margin-bottom: 15px;
+#partners-bar {
   background-color: #FF553D;
-  height: 42;
-  border-top: 2px solid #BE785F;
-  border-bottom: 1px solid #ffffff;
+  padding-top: 2px;
+  padding-bottom: 5px;
 }
-#container #header h1 {
+#client-wifi-courtesy {
+  background-color: #DFDFDF;
+  padding: 7px 0 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#client-wifi-courtesy p {
   color: #5a5a5a;
-  font-weight: bold;
-  font-size: 14px;
 }
-#container #header h1 span {
+#client-wifi-courtesy p span {
   color: #f46034;
 }
-#container #header h2 {
+#client-wifi-courtesy h2 {
   color: #f46034;
-  font-weight: bold;
-  font-size: 12px;
+  font-size: 13px;
   margin: -5px 0 0 0;
 }
-.btn-lista {
-  padding: 15px 0 0 0;
-  text-align: center;
-  width: 100%;
-}
-.btn-lista ul {
-  list-style: none;
-  padding: 10px 0 0 0;
-  margin: 0;
-}
-.btn-lista ul li {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  text-align: center;
-}
-.lista-btn {
+#instructions {
+  padding-top: 10px;
   font-size: 12px;
-  padding: 15px 0 0 0;
-  text-align: center;
 }
-.lista-btn ol {
-  margin: 0;
-  padding-left: 30px;
-}
-.lista-btn ol li {
-  padding: 5px 0 5px 0;
-  margin: 0;
+#instructions ol li {
   color: #5a5a5a;
+  padding: 5px 0;
 }
-.btn01,
-.btn02,
-.btn03 {
-  color: #fff;
-  width: 100%;
-  height: 71px;
-  display: block;
+#instructions ol li span {
+  color: #f46034;
+  font-style: italic;
 }
-a {
-  background-position: center;
-  background-repeat: no-repeat;
+#interactions ul li {
+  margin: 15px 0;
 }
-a.btn01 {
-  background-image: url(../images/btn01-cinza.jpg);
+#interactions ul li .btn-default {
+  text-transform: uppercase;
+  background-color: #CCCCCC;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
 }
-a.btn01:hover {
-  background-image: url(../images/btn01-laranja.jpg);
-}
-a.btn02 {
-  background-image: url(../images/btn02-cinza.jpg);
-}
-a.btn02:hover {
-  background-image: url(../images/btn02-laranja.jpg);
-}
-a.btn03 {
-  background-image: url(../images/btn03-cinza.jpg);
-}
-a.btn03:hover {
-  background-image: url(../images/btn03-laranja.jpg);
+#interactions ul li .btn-default:hover {
+  background-color: #F45F34;
+  color: #ffffff;
+  border-color: #E18728;
 }
