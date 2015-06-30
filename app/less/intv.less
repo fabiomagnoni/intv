@@ -2,21 +2,67 @@
 
 
 #partners-bar {
-	background-color: #FF553D;
-	padding-top: 2px;
-	padding-bottom: 5px;
+    background-color: #FF553D;
+    padding-top: 2px;
+    padding-bottom: 5px;
 }
 
-#shopping-wifi-courtesy {
-	background-color: #DFDFDF;
+#client-wifi-courtesy {
+    background-color: #DFDFDF;
+    padding: 7px 0 15px;
+    font-weight: bold;
+    text-transform: uppercase;
 
-	p {
-		color: #5a5a5a;
-		font-weight: bold;
-		text-transform: uppercase;
+    p {
+        color: #5a5a5a;
 
-		span {
-			color: #f46034;
-		}
-	}
+        span {
+            color: #f46034;
+        }
+    }
+
+    h2 {
+        color: #f46034;
+        font-size: 13px;
+        margin: -5px 0 0 0;
+    }
+}
+
+#instructions {
+    padding-top: 10px;
+    font-size: 12px;
+
+    ol {
+        li {
+            color: #5a5a5a;
+            padding: 5px 0;
+
+            span {
+                color: #f46034;
+                font-style:italic
+            }
+        }
+    }
+}
+
+#interactions {
+    ul {
+        li {
+            margin: 15px 0;
+
+            .btn-default {
+                text-transform: uppercase;
+                background-color: #CCCCCC;
+                -webkit-box-shadow: 0 8px 6px -6px black;
+                -moz-box-shadow: 0 8px 6px -6px black;
+                box-shadow: 0 8px 6px -6px black;
+
+                &:hover {
+                    background-color: #F45F34;
+                    color: #ffffff;
+                    border-color: #E18728;
+                }
+            }
+        }
+    }
 }

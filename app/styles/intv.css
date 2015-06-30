@@ -4,14 +4,47 @@
   padding-top: 2px;
   padding-bottom: 5px;
 }
-#shopping-wifi-courtesy {
+#client-wifi-courtesy {
   background-color: #DFDFDF;
-}
-#shopping-wifi-courtesy p {
-  color: #5a5a5a;
+  padding: 7px 0 15px;
   font-weight: bold;
   text-transform: uppercase;
 }
-#shopping-wifi-courtesy p span {
+#client-wifi-courtesy p {
+  color: #5a5a5a;
+}
+#client-wifi-courtesy p span {
   color: #f46034;
+}
+#client-wifi-courtesy h2 {
+  color: #f46034;
+  font-size: 13px;
+  margin: -5px 0 0 0;
+}
+#instructions {
+  padding-top: 10px;
+  font-size: 12px;
+}
+#instructions ol li {
+  color: #5a5a5a;
+  padding: 5px 0;
+}
+#instructions ol li span {
+  color: #f46034;
+  font-style: italic;
+}
+#interactions ul li {
+  margin: 15px 0;
+}
+#interactions ul li .btn-default {
+  text-transform: uppercase;
+  background-color: #CCCCCC;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+}
+#interactions ul li .btn-default:hover {
+  background-color: #F45F34;
+  color: #ffffff;
+  border-color: #E18728;
 }
