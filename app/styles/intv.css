@@ -3,6 +3,7 @@
   background-color: #FF553D;
   padding-top: 2px;
   padding-bottom: 5px;
+  border: 1px solid red;
 }
 #client-wifi-courtesy {
   background-color: #DFDFDF;
@@ -28,6 +29,7 @@
 #instructions ol li {
   color: #5a5a5a;
   padding: 5px 0;
+  list-style-position: inside;
 }
 #instructions ol li span {
   color: #f46034;
