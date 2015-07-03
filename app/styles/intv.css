@@ -28,6 +28,7 @@
 #instructions ol li {
   color: #5a5a5a;
   padding: 5px 0;
+  list-style-position: inside;
 }
 #instructions ol li span {
   color: #f46034;
